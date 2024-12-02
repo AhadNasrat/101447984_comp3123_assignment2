@@ -1,0 +1,84 @@
+/* Center the container in the viewport */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #f3e5f5, #e1bee7); /* Subtle gradient for signup */
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Style the inner content box */
+  .signup-box {
+    width: 350px;
+    text-align: center;
+    background: white;
+    padding: 25px;
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15); /* Depth effect */
+    transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+  }
+  
+  .signup-box:hover {
+    transform: scale(1.02); /* Slight scale effect */
+  }
+  
+  /* Header or title styling */
+  .signup-box h2 {
+    font-size: 24px;
+    color: #1976d2; /* A vibrant purple for the sign-up theme */
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Input field styling */
+  .signup-box .MuiTextField-root {
+    margin-bottom: 16px;
+    width: 100%;
+  }
+  
+  .signup-box .MuiTextField-root input {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .signup-box .MuiTextField-root input:focus {
+    border-color: #1976d2; /* Purple border for focus */
+    outline: none;
+  }
+  
+  /* Button styling */
+  .signup-box .MuiButton-root {
+    margin-top: 16px;
+    width: 100%;
+    background-color: #1976d2;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-box .MuiButton-root:hover {
+    background-color: #1565c0; /* Darker purple on hover */
+  }
+  
+  /* Login link styling */
+  .signup-box .login-link {
+    display: block;
+    margin-top: 16px;
+    font-size: 14px;
+    color: #1976d2;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .signup-box .login-link:hover {
+    text-decoration: underline;
+  }
+  

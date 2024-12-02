@@ -1,0 +1,85 @@
+/* Center the container in the viewport */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #e3f2fd, #bbdefb); /* Subtle gradient background */
+  font-family: 'Roboto', sans-serif; /* Modern font */
+}
+
+/* Style the inner content box */
+.login-box {
+  width: 350px; /* Slightly larger width for better proportions */
+  text-align: center;
+  background: white;
+  padding: 25px;
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15); /* More pronounced shadow for depth */
+  transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+.login-box:hover {
+  transform: scale(1.02); /* Subtle scaling on hover */
+}
+
+/* Header or title styling */
+.login-box h2 {
+  font-size: 24px;
+  color: #1976d2; /* Professional blue color */
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Input field styling */
+.MuiTextField-root {
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.MuiTextField-root input {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+.MuiTextField-root input:focus {
+  border-color: #1976d2; /* Highlight border on focus */
+  outline: none;
+}
+
+/* Button styling */
+.MuiButton-root {
+  margin-top: 16px;
+  width: 100%;
+  background-color: #1976d2;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.MuiButton-root:hover {
+  background-color: #1565c0; /* Darker blue on hover */
+}
+
+/* Optional: Small text for links or messages */
+.login-box p {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+}
+
+.login-box a {
+  color: #1976d2;
+  text-decoration: none;
+}
+
+.login-box a:hover {
+  text-decoration: underline;
+}
